@@ -32,3 +32,21 @@ pip install -r requirements.txt
 python grafos_udlap.py
 ```
 
+🖥️ Uso del Sistema
+Seleccionar ubicaciones:
+
+Usa los menús desplegables para elegir punto de inicio y destino
+
+Calcular ruta:
+
+```python
+# Ejemplo de cálculo de ruta
+ruta, distancia = calcular_ruta("GC", "BI")  # Gimnasio -> Biblioteca
+```
+Visualizar resultados:
+
+Ruta resaltada en rojo en el mapa
+
+Distancia total mostrada en metros
+
+Secuencia detallada de nodos
