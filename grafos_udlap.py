@@ -115,10 +115,10 @@ def draw_graph(path=None):
     # Cargar y mostrar el mapa de fondo
     if os.path.exists('mapa_udlap.jpg'):
         map_img = plt.imread('mapa_udlap.jpg')
-        ax.imshow(map_img, extent=[0, img_width, 0, img_height], alpha=0.8)  # Menos transparencia para mejor contraste
+        ax.imshow(map_img, extent=[0, img_width, 0, img_height], alpha=0.8)  
     
-    # Configuración de estilos (ajustada para nodos negros)
-    node_size = 180  # Tamaño aumentado
+    # Configuración de estilos 
+    node_size = 180 
     font_size = 9
     edge_width = 2
     
@@ -274,7 +274,7 @@ canvas.get_tk_widget().pack(fill="both", expand=True, padx=5, pady=5)
 # Barra de estado
 status_frame = tk.Frame(window, bg="#2E7D32", height=25)
 status_frame.pack(fill="x", side="bottom")
-status_label = tk.Label(status_frame, text="Sistema de Navegación UDLAP © 2023", 
+status_label = tk.Label(status_frame, text="Sistema de Navegación UDLAP © 2025", 
                        bg="#2E7D32", fg="white", font=("Arial", 9))
 status_label.pack(side="right", padx=10)
 
